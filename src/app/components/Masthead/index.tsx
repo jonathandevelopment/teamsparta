@@ -14,7 +14,7 @@ export default function Masthead() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white">
+    <div className="bg-slate-500">
       <header className="absolute inset-x-0 top-0 z-50">
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
@@ -92,38 +92,38 @@ export default function Masthead() {
         <div className="mx-auto max-w-7xl px-6 py-4  lg:flex lg:items-center lg:gap-x-10 lg:px-8 ">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
             <div className="flex">
-              <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-[#0294b4] ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+              <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900 hover:ring-gray-900/20">
                 <a href="#" className="flex items-center gap-x-1">
                   <span className="absolute inset-0 " aria-hidden="true" />
-                  Envíos a todo el país
-                  <ChevronRightIcon className="-mr-2 h-5 w-5 text-[#0294b4]" aria-hidden="true" />
+                  Grecia, Alajuela, Costa Rica
+                  <ChevronRightIcon className="-mr-2 h-5 w-5 text-gray-900" aria-hidden="true" />
                 </a>
               </div>
             </div>
             <h1 className="mt-10 max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Roles Griegos
+              Academia de Artes Marciales Team Sparta
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Especialistas en Soluciones Industriales: Explora Nuestra Amplia
-              Gama de Productos: Rodamientos, Retenedores, Fajas, Bocinas, 
-              Fibras, Rótulas, Mangueras y Mucho Más 
+            <p className="mt-6 text-lg leading-8 text-gray-900 font-semibold">
+            Descubre el poder interior a través de las ancestrales artes marciales.
+             Nuestra academia te brinda la oportunidad de aprender las disciplinas de combate 
+             con la innovación moderna.  
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
                 href="#"
                 className="rounded-md bg-[#0294b4] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0294b4]"
               >
-                Ver productos
+                Ver Classes
               </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                Cotizar <span aria-hidden="true">→</span>
+              <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:underline">
+                Reservar un espacio <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
             <img 
             style={{width:"80%"}}
-            src="/images/ballbearings.png" alt="" />
+            src="/images/kick.png" alt="" />
           </div>
         </div>
       </div>
