@@ -14,7 +14,6 @@ export default function Home() {
       {/* <Navbar/> */}
       <Masthead/>
       <FeaturedProducts/>
-      <Brands/>
       <About/>
     </div>
     

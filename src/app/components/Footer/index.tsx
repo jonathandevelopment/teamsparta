@@ -2,9 +2,9 @@ import { JSX, SVGProps } from "react"
 
 const navigation = {
     main: [
-      { name: 'Roles Griegos', href: '#' },
-      { name: 'Acerca de Nosotros', href: '#' },
-      { name: 'Productos', href: '#' },
+      { name: 'Team Sparta', href: '#' },
+      { name: 'Classes', href: '#' },
+      { name: 'Acerca de nosotros', href: '#' },
       { name: 'Contactenos', href: '#' },
     ],
     social: [

@@ -1,3 +1,5 @@
+import { ChevronRightIcon } from '@heroicons/react/20/solid'
+
 export default function About() {
   return (
     <div className="bg-gray-100 py-6">
@@ -7,24 +9,26 @@ export default function About() {
             100% costarricenses
           </p>
           <h2 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Acerca de Nosotros
+          Academia  Team Sparta
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            En Roles Griegos, fusionamos la grandeza de la antigua Grecia con la
-            innovación industrial actual. Somos líderes en roles y rodamientos,
-            brindando soluciones excepcionales inspiradas en la mitología para
-            tus desafíos industriales. Misión: Llevamos la esencia de los roles
-            griegos a la vanguardia de la industria moderna. A través de
-            ingeniería excelente y calidad comprometida, proporcionamos
-            productos que encarnan fuerza, durabilidad y confiabilidad, siendo
-            aliados confiables en la búsqueda de rendimiento industrial. Visión:
-            Ser reconocidos como fuente líder de roles y rodamientos
-            industriales, fusionando la majestuosidad antigua con el progreso
-            actual. Imaginamos cada producto entregado como símbolo de la fuerza
-            de los dioses olímpicos. Valores: Excelencia técnica, innovación
-            continua, honor a la tradición, socio confiable y pasión por el
-            rendimiento son los pilares que guían nuestro negocio.
+            La Academia Team Sparta es un centro de entrenamiento de artes
+            marciales de renombre que ha estado en el corazón de la comunidad
+            durante más de una década. Fundada por apasionados y dedicados
+            profesionales de las artes marciales, nuestra academia se ha
+            convertido en un lugar de referencia para aquellos que buscan
+            desarrollar sus habilidades físicas y mentales a través de las
+            disciplinas de combate.
           </p>
+          <div className="flex my-10">
+              <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900 bg-slate-300">
+                <a href="#" className="flex items-center gap-x-1">
+                  <span className="absolute inset-0 " aria-hidden="true" />
+                  Leer más
+                  <ChevronRightIcon className="-mr-2 h-5 w-5 text-gray-900" aria-hidden="true" />
+                </a>
+              </div>
+            </div>
         </div>
       </div>
     </div>
