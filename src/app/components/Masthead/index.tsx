@@ -89,10 +89,10 @@ export default function Masthead() {
           </svg>
           <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
         </svg>
-        <div className="mx-auto max-w-7xl px-6 py-4  lg:flex lg:items-center lg:gap-x-10 lg:px-8 ">
+        <div className="mx-auto max-w-7xl px-6  lg:flex lg:items-end lg:gap-x-10 lg:px-8 ">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
             <div className="flex">
-              <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900 hover:ring-gray-900/20">
+              <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900 bg-slate-300">
                 <a href="#" className="flex items-center gap-x-1">
                   <span className="absolute inset-0 " aria-hidden="true" />
                   Grecia, Alajuela, Costa Rica
@@ -108,7 +108,7 @@ export default function Masthead() {
              Nuestra academia te brinda la oportunidad de aprender las disciplinas de combate 
              con la innovación moderna.  
             </p>
-            <div className="mt-10 flex items-center gap-x-6">
+            <div className="my-10 flex items-center gap-x-6">
               <a
                 href="#"
                 className="rounded-md bg-[#0294b4] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0294b4]"
@@ -122,7 +122,7 @@ export default function Masthead() {
           </div>
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
             <img 
-            style={{width:"80%"}}
+            style={{width:"100%"}}
             src="/images/kick.png" alt="" />
           </div>
         </div>
