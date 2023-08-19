@@ -9,18 +9,6 @@ import Footer from './components/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
-// export const metadata: Metadata = {
-//   title: 'Roles Griegos',
-//   description: 'Todo en Roles ',
-//   openGraph: {
-//     title: 'Roles Griegos',
-//     description: 'Todo en Roles Industriales',
-//     siteName: 'Roles Griegos',
-//     images: "/images/logo.png",
-//     type: "website",
-//     locale: "en_US",
-//   },
-// }
 
 export default function RootLayout({
   children,
@@ -31,17 +19,22 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <title>
-         Roles Griegos
+        Academia Team Sparta
         </title>
         <meta
           name="description"
-          content="Especialistas en Soluciones Industriales: 
-          Explora Nuestra Amplia Gama de Productos: Rodamientos, Retenedores, 
-          Fajas, Bocinas, Fibras, Rótulas, Mangueras y Mucho Más."
+          content="La Academia Team Sparta es un centro de 
+          entrenamiento de artes marciales de renombre que 
+          ha estado en el corazón de la comunidad durante más 
+          de una década. Fundada por apasionados y dedicados
+           profesionales de las artes marciales, nuestra academia 
+           se ha convertido en un lugar de referencia para aquellos
+            que buscan desarrollar sus habilidades físicas y mentales 
+            a través de las disciplinas de combate."
         />
         <meta
           property="og:image"
-          content="/images/logo.png"
+          content="/images/muaythai.png"
         />
       </Head>
       <body className={inter.className}>
