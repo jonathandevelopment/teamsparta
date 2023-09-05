@@ -4,7 +4,7 @@ import { products } from "@/app/utils/products";
 
 export default function FeaturedProducts() {
   return (
-    <div className="">
+    <div id="classes" className="">
       <div className="mx-auto max-w-2xl px-4 py-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className=" text-4xl my-10">Nuestras Disciplinas</h2>
 
