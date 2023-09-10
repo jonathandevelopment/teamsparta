@@ -1,5 +1,3 @@
-'use client'
-
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { products } from "@/app/utils/products";
 import Link from "next/link";
