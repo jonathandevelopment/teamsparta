@@ -1,9 +1,9 @@
 
 export const products = [
     {
-      id: 1,
+      id: 0,
       name: "Jiujitsu Brasileño",
-      href: "#",
+      customPath: "jiujitsu-brasileno",
       price: "$50",
       description:
         "Clases de Jiujitsu Brasileño para principiantes y avanzados. Aprende las técnicas de lucha y sumisión.",
@@ -12,9 +12,9 @@ export const products = [
       imageAlt: "Imagen de una clase de Jiujitsu Brasileño.",
     },
     {
-      id: 2,
+      id: 1,
       name: "Muay Thai",
-      href: "#",
+      customPath: "muay-thai",
       price: "$40",
       description:
         "Clases de Muay Thai para mejorar tu resistencia y habilidades de combate. Entrenamiento completo.",
@@ -23,9 +23,9 @@ export const products = [
       imageAlt: "Imagen de una clase de Muay Thai.",
     },
     {
-      id: 3,
+      id: 2,
       name: "Kick Boxing",
-      href: "#",
+      customPath: "kick-boxing",
       price: "$35",
       description:
         "Clases de Kick Boxing para quemar calorías y desarrollar habilidades de combate. Apto para todos los niveles.",
@@ -34,9 +34,9 @@ export const products = [
       imageAlt: "Imagen de una clase de Kick Boxing.",
     },
     {
-      id: 4,
+      id: 3,
       name: "Boxeo",
-      href: "#",
+      customPath: "boxeo",
       price: "$30",
       description:
         "Clases de Boxeo para mejorar tu fuerza y coordinación. Entrenamiento intensivo con sacos y guantes.",
@@ -45,9 +45,9 @@ export const products = [
       imageAlt: "Imagen de una clase de Boxeo.",
     },
     {
-      id: 5,
+      id: 4,
       name: "MMA",
-      href: "#",
+      customPath: "mma",
       price: "$60",
       description:
         "Entrenamiento completo en Artes Marciales Mixtas (MMA) con expertos instructores. Aprende a pelear en todas las distancias.",
@@ -56,9 +56,9 @@ export const products = [
       imageAlt: "Imagen de una clase de MMA.",
     },
     {
-      id: 6,
+      id: 5,
       name: "Clases de Artes Marciales para Niños",
-      href: "#",
+      customPath: "ninos",
       price: "$25",
       description:
         "Clases de artes marciales diseñadas específicamente para niños. Fomenta la disciplina, la confianza y la actividad física.",
