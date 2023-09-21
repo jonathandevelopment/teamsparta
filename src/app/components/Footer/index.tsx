@@ -81,7 +81,7 @@ const navigation = {
             ))}
           </div>
           <p className="mt-10 text-center text-xs leading-5 text-white">
-            &copy; 2023 Roles Griegos, Inc. All rights reserved.
+            &copy; 2023 Academia Team Sparta, Inc. All rights reserved.
           </p>
         </div>
       </footer>

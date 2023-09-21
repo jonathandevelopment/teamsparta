@@ -41,7 +41,7 @@ export default function FeaturedProducts() {
                           className="absolute inset-0 "
                           aria-hidden="true"
                         />
-                        Reservar clase de prueba
+                        Leer más
                         <ChevronRightIcon
                           className="-mr-2 h-5 w-5 text-gray-900"
                           aria-hidden="true"

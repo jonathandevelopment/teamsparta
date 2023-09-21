@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
-
+import Link from 'next/link'
 const navigation = [
   { name: 'Product', href: '#' },
   { name: 'Features', href: '#' },
@@ -109,15 +109,15 @@ export default function Masthead() {
              con la innovación moderna.  
             </p>
             <div className="my-10 flex items-center gap-x-6">
-              <a
-                href="#"
+              <Link
+                href="/clases"
                 className="rounded-md bg-[#0294b4] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0294b4]"
               >
                 Ver Classes
-              </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:underline">
+              </Link>
+              <Link href={`https://wa.me/89631439/?text=Quiero reservar una clase de prueba`} className="text-sm font-semibold leading-6 text-gray-900 hover:underline">
                 Reservar un espacio <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
