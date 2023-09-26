@@ -115,7 +115,7 @@ export default function Masthead() {
               >
                 Ver Classes
               </Link>
-              <Link href={`https://wa.me/89631439/?text=Quiero reservar una clase de prueba`} target="_blank" className="text-sm font-semibold leading-6 text-gray-900 hover:underline">
+              <Link href={`https://wa.me/+50689631439/?text=Quiero%20reservar%20una%20clase%20de%20prueba`} target="_blank" className="text-sm font-semibold leading-6 text-gray-900 hover:underline">
                 Reservar un espacio <span aria-hidden="true">→</span>
               </Link>
             </div>
