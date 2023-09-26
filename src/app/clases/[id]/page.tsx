@@ -12,7 +12,7 @@ export default function ClassePage({ params }: { params: any }) {
           <h2 className=" text-4xl my-10">{product.name}</h2>
           <div className="flex">
               <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900 bg-slate-300">
-                <Link href={`https://wa.me/89631439/?text=Quiero reservar una clase de prueba de ${product.name}`} target="_blank" className="flex items-center gap-x-1">
+                <Link href={`https://wa.me/+50689631439/?text=Quiero%20reservar%20una%20clase%20de%20prueba`} target="_blank" className="flex items-center gap-x-1">
                   <span className="absolute inset-0 " aria-hidden="true" />
                   Reserve su clase de prueba
                   <ChevronRightIcon className="-mr-2 h-5 w-5 text-gray-900" aria-hidden="true" />
