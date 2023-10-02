@@ -36,7 +36,7 @@ export default function FeaturedProducts() {
                   </p>
                   <div className="flex my-10">
                     <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900 bg-slate-300">
-                      <a href="#" className="flex items-center gap-x-1">
+                      <Link href={`clases/${product.id}`} className="flex items-center gap-x-1">
                         <span
                           className="absolute inset-0 "
                           aria-hidden="true"
@@ -46,7 +46,7 @@ export default function FeaturedProducts() {
                           className="-mr-2 h-5 w-5 text-gray-900"
                           aria-hidden="true"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

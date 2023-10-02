@@ -32,7 +32,7 @@ export default function ClassePage({ params }: { params: any }) {
             <p className=" text-gray-500">{product.detailDescription}</p>
             <ul 
             style={{listStyleType: 'disc'}}
-            className="grid lg:grid-cols-3 gap-2 py-4 font-semibold">
+            className="grid lg:grid-cols-3 gap-2 py-4 font-semibold ml-4">
               <li>Horarios Flexibles</li>
               <li>Instructores Altamente Calificados</li>
               <li>Ambiente de Aprendizaje Seguro</li>

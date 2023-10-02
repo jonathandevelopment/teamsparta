@@ -35,15 +35,17 @@ export default function  Classes() {
                   </p>
                   <div className="flex my-10">
                     <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900 bg-slate-300">
+                      <Link href={`clases/${product.id}`} className="flex items-center gap-x-1">
                         <span
                           className="absolute inset-0 "
                           aria-hidden="true"
                         />
-                        Leer mas
+                        Leer más
                         <ChevronRightIcon
                           className="-mr-2 h-5 w-5 text-gray-900"
                           aria-hidden="true"
                         />
+                      </Link>
                     </div>
                   </div>
                 </div>
